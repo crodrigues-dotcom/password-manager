@@ -61,7 +61,8 @@ Après avoir démarré l'application, vous pourrez :
 
 ## Auteurs
 
-- [Votre Nom](https://github.com/votre-utilisateur)
+- [crodrigues-dotcom](https://github.com/crodrigues-dotcom)
+- [qboitel](https://github.com/qboitel)
 
 ## Remerciements
 
