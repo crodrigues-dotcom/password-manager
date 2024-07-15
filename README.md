@@ -63,7 +63,3 @@ Après avoir démarré l'application, vous pourrez :
 
 - [crodrigues-dotcom](https://github.com/crodrigues-dotcom)
 - [qboitel](https://github.com/qboitel)
-
-## Remerciements
-
-Merci à tous ceux qui ont contribué à ce projet.
