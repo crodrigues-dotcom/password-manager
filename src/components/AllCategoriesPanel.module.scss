@@ -1,0 +1,197 @@
+.main {
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+
+    .left {
+        flex: 1;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        background-color: #f5f5f5;
+        border-radius: .7rem;
+        flex-shrink: 0;
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            overflow-y: scroll;
+            scroll-behavior: smooth;
+            gap: 1rem;
+            padding-right: 1rem;
+            height: 500px;
+
+            .item {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 1rem 1.5rem;
+                border-radius: 1rem;
+                padding-right: 2rem;
+
+                .item_left {
+                    display: flex;
+                    align-items: center;
+                    gap: 2rem;
+                }
+
+                h1 {
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                }
+
+                h2 {
+
+                    font-weight: lighter;
+                    font-size: 1.2rem;
+                }
+
+                img {
+                    justify-self: flex-end;
+                }
+
+            }
+        }
+
+    }
+
+    .right {
+        flex: 1;
+        background-color: #34E1CF;
+        /*blanc*/
+        padding: 1rem;
+        border-radius: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .upper {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+
+            div {
+                display: flex;
+                gap: 1rem;
+            }
+
+            span {
+                font-weight: semi-bold;
+            }
+
+            .remaining {
+                font-weight: bold;
+                color: #34E1CF;
+            }
+
+            align-items: center;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            flex: 1;
+        }
+
+        .default_item {
+            display: flex;
+            flex-direction: column;
+
+            span {
+                color: #34E1CF;
+                font-weight: bold;
+            }
+
+            input {
+                all: unset
+            }
+
+            padding: 1rem 2rem;
+            background-color: #f5f5f5;
+            border-radius: 0.7rem;
+        }
+
+        .password_item {
+
+            .password_left {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .password_right {
+                display: flex;
+                gap: 1rem;
+            }
+
+            display: flex;
+            flex-direction: row;
+
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+                cursor: pointer;
+            }
+
+            span {
+                color: #34E1CF;
+                font-weight: bold;
+            }
+
+            input {
+                all: unset
+            }
+
+            padding: 1rem 2rem;
+            background-color: #f5f5f5;
+            border-radius: 0.7rem;
+        }
+    }
+}
+
+.unselected {
+    background-color: #D9D9D9;
+
+    h1 {
+        color: black;
+    }
+
+    h2 {
+        color: #6D6D6D;
+    }
+}
+
+.selected {
+    background-color: #34E1CF;
+
+    h1 {
+        color: white;
+    }
+
+    h2 {
+        color: #000;
+    }
+}
+
+.removeButton {
+
+    margin-top: auto;
+
+    cursor: pointer;
+
+    span {
+        color: #FF3A3A !important;
+    }
+}
+
+.saveButton {
+    cursor: pointer;
+
+    span {
+        color: black !important;
+    }
+}
